@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Prelab Programs</title>
+
+    <style>
+        body {
+            background-color: white;
+            font-family: Arial, sans-serif;
+        }
+
+        h1 {
+            text-align: center;
+        }
+
+        h2 {
+            color: black;
+        }
+
+        pre {
+            background-color: white;
+            padding: 20px;
+            overflow-x: auto;
+            font-size: 14px;
+            line-height: 1.5;
+        }
+
+        .program {
+            margin-bottom: 30px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Prelab Programs</h1>
+
+    <div class="program">
+        <h2>1. Change the Background Colour to Green</h2>
+
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;CSS Styling Example&lt;/title&gt;
+
+    &lt;style&gt;
+        body {
+            background-color: green;
+        }
+
+        ul {
+            list-style-type: circle;
+            margin: 10px;
+            border-top: 2px solid black;
+            border-bottom: 2px solid black;
+            padding: 10px;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;h2&gt;My Favorite Subjects&lt;/h2&gt;
+
+    &lt;ul&gt;
+        &lt;li&gt;Computer Science&lt;/li&gt;
+        &lt;li&gt;Mathematics&lt;/li&gt;
+        &lt;li&gt;Physics&lt;/li&gt;
+    &lt;/ul&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+    </div>
+
+
+    <div class="program">
+        <h2>2. CSS Code to Apply Styles to Tab</h2>
+
+        <h3>HTML Code</h3>
+
+        <pre>
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Tab Example&lt;/title&gt;
+    &lt;link rel="stylesheet" href="style.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;div class="tab"&gt;
+        &lt;button class="tab-button"&gt;Home&lt;/button&gt;
+        &lt;button class="tab-button"&gt;About&lt;/button&gt;
+        &lt;button class="tab-button"&gt;Contact&lt;/button&gt;
+    &lt;/div&gt;
+
+    &lt;div class="tab-content"&gt;
+        &lt;h2&gt;Welcome&lt;/h2&gt;
+        &lt;p&gt;This is a simple tab styled using external CSS.&lt;/p&gt;
+    &lt;/div&gt;
+
+&lt;/body&gt;
+&lt;/html&gt;
+        </pre>
+
+        <h3>External CSS Code — style.css</h3>
+
+        <pre>
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+}
+
+.tab {
+    max-width: 700px;
+    margin: 20px auto;
+    border: 1px solid #ccc;
+    background-color: white;
+    overflow: hidden;
+}
+
+.tab-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.tab-button:hover {
+    background-color: #45a049;
+}
+
+.tab-content {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+        </pre>
+    </div>
+
+</body>
+</html>
